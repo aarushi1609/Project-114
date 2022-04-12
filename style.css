@@ -1,0 +1,40 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1
+{
+    background-color: #30AADD;
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.btn-warning:hover
+{
+    background-color: lightblue;
+    font-size: 25px;
+    border: none;
+}
+
+canvas
+{
+    animation-name: animation1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
+
+@keyframes animation1 
+{
+    0%{box-shadow: 1px 1px 60px #247881}
+    25%{box-shadow: 1px 1px 60px #43919B}
+    50%{box-shadow: 1px 1px 60px  #30AADD}
+    100%{box-shadow: 1px 1px 60px #00FFC6}
+}
+
+canvas
+{
+    margin-top: 30px;
+}
